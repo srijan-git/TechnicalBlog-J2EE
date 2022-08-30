@@ -1,0 +1,23 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 24-Aug-2022, 9:21:50 pm
+    Author     : srijankumarkhan
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primary-background {
+    background: #03A9F4 !important;
+}
+
+.banner-background {
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 89%, 70% 100%, 24% 96%, 0 100%, 0 0);
+
+}
+
