@@ -33,10 +33,17 @@
 .classpath
 .settings
 
-# Netbeans
-nbactions*.xml
-nb-configuration*.xml
+# NetBeans specific #
+nbproject
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
 
+# Class Files #
+*.class
 
 # Folder config file
 Desktop.ini

@@ -41,6 +41,7 @@ public class LoginServlet extends HttpServlet
             UserDao dao = new UserDao(connectionProvider.getConnection());
 
             User u = dao.getUserByEmailAndPassword(userEmail, userPassword);
+            
             if (u == null)
             {
                 Message message = new Message("Invalid Credentials....Try again!", "error", "alert-danger");

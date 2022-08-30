@@ -6,7 +6,7 @@ public class connectionProvider
 {
 
     private static Connection con;
-    private static final String DBurl = "jdbc:mysql://localhost:3306/TechBlog";
+    private static final String DBurl = "jdbc:mysql://localhost:3306/technicalblog";
     private static final String DBusername = "root";
     private static final String DBpassword = "Ss12345#";
 
